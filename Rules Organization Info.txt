@@ -1,0 +1,154 @@
+Hourly log rules:
+-----------------
+RL-1100
+RL-1101
+RL-1102
+RL-1103
+RL-1104
+RL-1105
+RL-1106
+RL-1107
+RL-1108
+RL-1109
+RL-1110
+RL-1111
+RL-1112
+RL-1113
+RL-1114
+RL-1115
+RL-1116
+RL-1117
+RL-1118
+RL-1119
+RL-1120
+RL-1121
+RL-1122
+RL-1123
+
+Relay Rules:
+------------
+RL-900
+RL-902
+RL-903
+RL-905
+RL-1017
+RL-1039
+RL-1082
+RL-3010
+RL-3012
+RL-3013
+RL-3023
+RL-3028
+RL-3031
+RL-4653
+
+Brightness Rules:
+-----------------
+RL-4620
+RL-4621
+RL-4622
+RL-4623
+RL-4624
+RL-4625
+
+Display Swap Rules:
+-------------------
+RL-4052
+RL-4055
+RL-4500
+RL-4501
+RL-4502
+RL-4503
+
+Button IO9 Rules:
+-----------------
+RL-903
+RL-909
+RL-910
+RL-1009
+RL-1010
+RL-1012
+RL-1014
+RL-1018
+RL-1042
+RL-1052
+RL-2019
+RL-2030
+RL-2033
+RL-4502
+RL-4503
+RL-4504
+RL-4653
+
+Button IO10 Rules:
+------------------
+RL-909
+RL-910
+RL-1010
+RL-1018
+RL-1025
+RL-1026
+RL-1027
+RL-1028
+RL-1042
+RL-2024
+RL-2030
+RL-4500
+RL-4501
+RL-4504
+
+BPFocus Rules:
+--------------
+RL-1035
+RL-1036
+RL-4052
+RL-4053
+RL-4055
+
+Another Rules:
+--------------
+RL-800 - Set_EventToggle_Flag
+RL-911 - Takt time 2: Shift start resume Takttime2
+RL-970 - Assign_var_to_display4
+RL-1000 - Hold Process time base
+RL-1004 - RESET_all_Timers_counters_at_begining_of_shift
+RL-1032 - D5_TaktTime1:>0_hold_DownTimers
+RL-1047 - ResetTotalShiftCounter
+RL-1054 - DT_Reason_log
+RL-1200 - CheckCustomMessageEmpty
+RL-2002 - Takt time 2: At zero increase goal by 1 and restarts.
+RL-2021 - PB7-Sensor_detection_Reset_subCount_ResetTimer_IncreaseTotalShiftCount
+RL-3000 - Shift_1_StartTime
+RL-3001 - Shift_1-EndTime
+RL-3002 - Shift_2_StartTime
+RL-3003 - Shift_2-EndTime
+RL-3004 - Shift_3_StartTime 
+RL-3005 - Shift_3-EndTime
+RL-3019 - StaticGoal-ON-OFF-Load_Value( STATIC/FROZEN Goal)
+RL-3025 - Send Email if DT more than 30minutes
+RL-3026 - DisplayDtReason
+RL-3027 - DisplayEnterDtReason
+RL-3045 - Resume display 4 on dynamic goal enable
+RL-3060 - EndOfDayEmail
+RL-3210 - OEE<30%_MSG
+RL-3212 - OEE 30-50%_MSG
+RL-3213 - OEE 50-75%_MSG
+RL-3214 - OEE 75-95%_MSG
+RL-3215 - OEE>95-Target-MSG
+RL-3220 - ProcessTime70-100-MSG
+RL-3225 - ProcessTime40-70-MSG
+RL-3230 - ProcessTime10-40-MSG
+RL-3235 - ProcessTime-0-10-MSG
+RL-3240 - BreakEvent - On Break-MSG
+RL-3241 - Shift Hold - On system hold-MSG
+RL-3250 - D9_Downtime:10 to30-MSG
+RL-3255 - D9_Downtime:1to10-MSG
+RL-3260 - D9_DownTime-Event-less than 1minute-msg
+RL-4024 - ShowCustomMessage
+RL-4025 - reset D31 to zero to allow D20 text change
+RL-4026 - CustomMessageinCycle
+RL-4030 - Reset-MSG-Timer
+RL-4061 - Detect Process time base and reload Process time
+RL-4062 - Detect Process time base and reload goal takt time
+RL-4654 - Set Goal toggle to 2 on static goal enable
+
